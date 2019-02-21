@@ -3,6 +3,7 @@ Flask
 SQLAlchemy
 flask_wtf
 flask_sqlalchemy
+pip=19.0.3
 # =============================================================================
 # DEPRECATION WARNING:
 #
