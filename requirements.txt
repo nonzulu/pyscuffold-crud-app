@@ -1,3 +1,8 @@
+gunicorn
+Flask
+SQLAlchemy
+flask_wtf
+flask_sqlalchemy
 # =============================================================================
 # DEPRECATION WARNING:
 #
