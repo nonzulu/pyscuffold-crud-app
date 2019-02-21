@@ -10,7 +10,6 @@ database_file = "sqlite:///{}".format(os.path.join(project_dir,  "bookdatabase.d
 
 application = Flask (__name__)
 application.config["SQLALCHEMY_DATABASE_URI"] = database_file
-
 db =SQLAlchemy(application)
 
 class Book(db.Model):
@@ -27,7 +26,7 @@ class Book(db.Model):
            db.session.add(book)
            db.session.commit()
          except Exception as e:
-            print("Failed to add book")
+            print("Failed to add book .....")
             print(e)
         books = Book.query.all()
  
@@ -55,12 +54,6 @@ class Book(db.Model):
         db.session.commit()
         return redirect("/")
     
-
-
-    
-
-
-
 
 if __name__ == "__main__":
     application.run(debug=True)
