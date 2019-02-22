@@ -56,4 +56,4 @@ class Book(db.Model):
     
 
 if __name__ == "__main__":
-    application.run(host="5000", debug=True)
+    application.run(debug=True)
