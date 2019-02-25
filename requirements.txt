@@ -4,6 +4,7 @@ SQLAlchemy
 flask_wtf
 flask_sqlalchemy
 pip=19.0.3
+python=3.6
 # =============================================================================
 # DEPRECATION WARNING:
 #
